@@ -1,0 +1,9 @@
+{
+    "name": "teeny_config",
+    "version": "1.0.0",
+    "urls": [
+        [ "teeny_config/__init__.mpy", "build/__init__.mpy" ],
+        [ "teeny_config/config.mpy", "build/config.mpy" ]
+    ],
+    "deps": []
+}
