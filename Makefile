@@ -47,7 +47,7 @@ info:
 docs:
 	@echo -n "Generating documentation ... "
 	@${DOC_GENERATOR} --output-dir ${DOCS_DIR} \
-		--edit-url ${PROJECT_NAME}=${GIT_URL}/${PROJECT_NAME}/blob/main/${PROJECT_NAME} \
+		--edit-url ${PROJECT_NAME}=${GIT_URL}/${PROJECT_NAME}/blob/main/src/${PROJECT_NAME}/ \
 		${SRC_DIR}
 	@echo "Done"
 
