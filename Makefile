@@ -27,7 +27,7 @@ help:
 	@echo "================== Targets ==================="
 	@echo "clean              : Remove intermediate files (e.g., .pyc files)"
 	@echo "build              : Compile all .py files to .mpy"
-	@echo "docs			      : Generate project documentation"
+	@echo "docs               : Generate project documentation"
 	@echo
 	@echo "Advanced Operations: "
 	@echo "clean-build        : Remove build files"
