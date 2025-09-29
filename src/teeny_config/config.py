@@ -46,10 +46,9 @@ def get_config_value(key: str, default=None) -> str:
     global _config_data
 
     if _config_data is None:
-        raise ValueError(
-            "Configuration not initialized. Invoke init_config() first.")
+        raise ValueError("Configuration not initialized. Invoke init_config() first.")
 
     if default is None and key not in _config_data:
-        raise KeyError(f'Configuration value not found [{key}]')
+        raise KeyError(f"Configuration value not found [{key}]")
 
     return _config_data.get(key, default)
